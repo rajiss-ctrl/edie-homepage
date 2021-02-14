@@ -20,11 +20,10 @@ header {
   display: none;
   list-style: none;
   position: absolute;
-  top: 20px;
-  right: 10%;
-  width: 10%;
+
+  width: 100%;
   border-radius: 18px;
-  text-align: left;
+  text-align: center;
 }
 .nav-icon {
   position: absolute;
@@ -225,7 +224,7 @@ h2 {
 }
 .uiux button,
 .backend button {
-  background: #f2f2f2;
+  background: #ccc;
 }
 
 .uiux h2,
@@ -380,6 +379,13 @@ footer .footerCtnMessage {
     text-align: center;
     width: 40%;
     height: 60px;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+  }
+  .team-name h3,
+  p {
+    margin: 20px 0 20px 0;
   }
 
   .footer-svg {
@@ -503,7 +509,7 @@ footer .footerCtnMessage {
   .service h2 {
     margin-top: 30px;
     width: 30%;
-    margin-right: 45%;
+    margin-right: 65%;
   }
   .serviceTextCatogory {
     display: flex;
@@ -513,7 +519,7 @@ footer .footerCtnMessage {
   .frontend,
   .backend {
     width: 33.3%;
-    padding: 8%;
+    padding: 2%;
     margin: 12px;
   }
   .uiux h2,
@@ -607,6 +613,10 @@ footer .footerCtnMessage {
     padding: 0;
     margin-left: -15%;
   }
+  .service h2 {
+    margin-right: 50%;
+  }
+
   .design1 h2 {
     width: 20%;
     padding: 0;
@@ -621,10 +631,19 @@ footer .footerCtnMessage {
   .designSection {
     margin-top: 40px;
   }
+  .service h2 {
+    margin-top: 30px;
+    width: 30%;
+  }
 
   .design2,
   .design1 {
     padding: 0;
+  }
+  .pen,
+  .chevron,
+  .bar {
+    width: 20%;
   }
   .design1 img,
   .design2 img {
@@ -637,5 +656,10 @@ footer .footerCtnMessage {
   }
   .design2-img2 {
     margin-top: 0%;
+  }
+  .footerCtnMessage .BtnJoin,
+  .footerCtnMessage input,
+  .footerCtnMessage button {
+    height: 45px;
   }
 }
